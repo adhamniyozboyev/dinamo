@@ -16,7 +16,7 @@ class _RonaldoState extends State<Ronaldo> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
       Container(
-        height: 400,
+        height: 400.0,
         child: Column(children: [
           Image.asset('image/ronaldu2.jpg',fit: BoxFit.contain,),
           Row(
