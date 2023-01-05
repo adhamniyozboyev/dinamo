@@ -25,7 +25,7 @@ class _RonaldoState extends State<Ronaldo> {
               Checkbox(
                 value: value1,
                 side: BorderSide(
-                    color: Colors.green, width: 1, style: BorderStyle.solid),
+                    color: Colors.green, width: 1.0, style: BorderStyle.solid),
                 onChanged: (hero1) {
                   setState(() {
                     value1 = hero1!;
